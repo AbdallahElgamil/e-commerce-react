@@ -1,0 +1,14 @@
+@import '../../App.scss';
+.css-cveggr-MuiListItemIcon-root{
+  min-width: 0 !important;
+}
+.filter-list-item{
+  color:$primary_c !important;
+}
+.filter-list-item.Mui-selected{
+  background-color:$primary_c !important;
+  color:white !important;
+  i{
+    color:white !important;
+  }
+}

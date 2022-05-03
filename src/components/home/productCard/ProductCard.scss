@@ -1,0 +1,92 @@
+@import '../../../App.scss';
+
+
+@include rwd(933) {
+    .card-content {
+        margin-right: 20px;
+    }
+}
+
+
+.exclamation {
+    color: $primary_c;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.exclam {
+    margin-left: auto !important
+}
+
+.calories {
+    display: flex;
+    color: $primary_c;
+    background-color: $secondary_c;
+    padding: 1px 10px 1px px;
+    padding-right: 7px;
+    font-size: 14px;
+    border-radius: 4%;
+    margin-left: 10px;
+
+}
+
+
+
+.salary span,
+.add-to-cart-btn span {
+    color: $primary_c;
+
+}
+
+.add-to-cart-btn {
+    margin-left: auto !important;
+    flex: 1 !important;
+}
+
+.card-content {
+    padding: 0px !important;
+    text-align: right;
+    margin-right:13%;
+    .inventory {
+        color: $primary_c;
+    }
+    button.MuiTouchRipple-root .MuiButtonBase-root .MuiIconButton-root .add-to-cart-btn{
+        flex:.5 !important;
+        padding: 0 !important;
+   
+    }
+ 
+}
+.salary {
+    
+    flex: 11.5 !important;
+    text-align: right;
+
+    direction: rtl;
+
+    &:after {
+        content: '\200e';
+    }
+}
+
+@include sm {
+  
+}
+@include md {
+    .card-content {
+        margin-right: 25%;
+    }
+
+  
+}
+
+@include xl {
+    .card-content {
+        margin-right:30%;
+    }
+
+    .salary {
+        padding-right: 10%;
+    }
+}

@@ -1,0 +1,48 @@
+@import '../../App.scss';
+
+.edit_save_button {
+    background-color: $primary_c !important;
+    color: white !important;
+    padding: -1px 15px !important;
+    border-radius: 12px !important;
+    margin-left: 5px !important;
+    margin-right: 20px !important;
+    font-size: 18px !important;
+}
+
+.count_input {
+    flex: 1;
+    display: block;
+    min-width: 0px;
+    text-align: center;
+    border: .5px solid #EBDFE3;
+    padding: 10px 12px;
+    border-radius: 12px;
+    margin-left: 5px;
+    margin-right: 20px
+}
+
+.current_orders_label {
+    font-size: 18px;
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    width: 80%;
+    border-radius: 16px !important
+}
+
+.accept_cancel_btn {
+    flex: 1;
+    border-radius: 6px !important;
+    padding: 15px !important;
+    color:white !important;
+    font-size: 18px !important;
+}
+
+.accept_btn {
+    background-color: $primary_c !important;
+}
+
+.cancel_btn {
+    background-color: #EC2424 !important;
+}
