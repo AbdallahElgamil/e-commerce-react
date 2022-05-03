@@ -5,6 +5,8 @@ Used Framworks :
 - MUI (UI Framwork)
 - React Router  
 
+![alt text](https://github.com/AbdallahElgamil/e-commerce-react/blob/main/home.png?raw=true)
+
 
 # Getting Started with Create React App
 
